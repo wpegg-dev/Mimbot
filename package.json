@@ -18,7 +18,7 @@
     "hubot-shipit": "^0.2.0"
   },
   "scripts": {
-    "start":"bin\\hubot"
+    "start":"node server.js"
   },
   "engines": {
     "node": "5.6.0"
