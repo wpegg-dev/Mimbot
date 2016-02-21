@@ -18,7 +18,7 @@
     "hubot-shipit": "^0.2.0"
   },
   "scripts": {
-    "start":"./bin\\hubot"
+    "start":"bin\\hubot"
   },
   "engines": {
     "node": ">=0.10.0"
