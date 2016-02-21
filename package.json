@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/wpegg-dev/Mimbot"
   },
-  "bugs": "https://github.com/wpegg-dev/Mimbot/issues"
+  "bugs": "https://github.com/wpegg-dev/Mimbot/issues",
   "dependencies": {
     "hubot": "^2.18.0",
     "hubot-diagnostics": "0.0.1",
@@ -24,7 +24,7 @@
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
   "scripts": {
     "test": "mocha --require cofee-errors --compilers coffee:coffee-script/register test"
   }
