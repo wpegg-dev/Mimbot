@@ -4,6 +4,11 @@
   "private": true,
   "author": "wpegg-dev",
   "description": "hubot for home",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/wpegg-dev/Mimbot"
+  },
+  "bugs": "https://github.com/wpegg-dev/Mimbot/issues"
   "dependencies": {
     "hubot": "^2.18.0",
     "hubot-diagnostics": "0.0.1",
@@ -17,10 +22,11 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0"
   },
-  "scripts": {
-    "start": ""
-  },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "0.10.x"
   }
+  "scripts": {
+    "test": "mocha --require cofee-errors --compilers coffee:coffee-script/register test"
+  }
+  
 }
