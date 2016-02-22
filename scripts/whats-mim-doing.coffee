@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   dance - Display a dancing Carlton
+#   what's mimi doing - Tell you what Moe is up to
 #
 # Author:
 #   wpegg-dev
